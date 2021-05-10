@@ -26,7 +26,7 @@ nano /etc/ssh/sshd_config
 *PasswordAuthentication no*
 ```
 sudo systemctl restart ssh
-passwd -d root
+passwd -l root
 ```
 
 ## firewall
