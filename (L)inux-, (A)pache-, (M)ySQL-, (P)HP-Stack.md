@@ -31,6 +31,7 @@ exit
 ```
 apt install php libapache2-mod-php php-mysql
 ```
+```
 systemctl restart apache2
 ```
 
