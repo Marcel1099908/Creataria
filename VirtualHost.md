@@ -216,6 +216,8 @@ systemctl reload apache2
 certbot --expand \
   -d creataria.de \
   -d www.creataria.de \
+  -d forum.creataria.de \
+  -d www.forum.creataria.de \
   -d cloud.creataria.de \
   -d www.cloud.creataria.de \
   -d root.creataria.de \
