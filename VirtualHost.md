@@ -33,7 +33,7 @@ nano /etc/apache2/sites-available/default.conf
 ```
 
 ```
-nano /etc/apache2/sites-available/legends-of-blood.conf
+nano /etc/apache2/sites-available/creataria.conf
 ```
 
 ```
