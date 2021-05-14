@@ -2,9 +2,11 @@
 
 ## /var/www/*
 ```
-mkdir /var/www/creataria.de [OR] mkdir /var/www/www.creataria.de [OR] /var/www/XXX
+mkdir /var/www/creataria.de
+mkdir /var/www/creataria.de/forum
 mkdir /var/www/cloud.creataria.de
 mkdir /var/www/root.creataria.de
+mkdir /var/log/apache2/creataria.de/
 ```
 
 ## dissite
