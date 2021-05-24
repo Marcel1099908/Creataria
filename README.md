@@ -28,7 +28,6 @@ nano /etc/ssh/sshd_config
 *PermitRootLogin without-password*
 ```
 sudo systemctl restart ssh
-passwd -l root
 ```
 
 ## firewall
