@@ -55,3 +55,15 @@ systemctl restart fail2ban
 ```
 fail2ban-client status sshd
 ```
+
+## hostname
+```
+hostnamectl set-hostname creataria.de
+nano /etc/hosts
+```
+*127.0.0.1 creataria.de*
+
+```
+reboot
+```
+
