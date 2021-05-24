@@ -17,13 +17,15 @@ nano /etc/apt/apt.conf.d/20auto-upgrades
 unattended-upgrades --dry-run
 ```
 
+
 ## key authentication
 ```
 ssh-keygen -t rsa -b 4096
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 nano /etc/ssh/sshd_config
 ```
-*PasswordAuthentication no*
+*PasswordAuthentication no* [OR]
+*PermitRootLogin without-password*
 ```
 sudo systemctl restart ssh
 passwd -l root
