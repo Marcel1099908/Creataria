@@ -11,10 +11,10 @@ apt install certbot python3-certbot-apache
 ```
 ```
 certbot --apache -d legends-of-blood.de -d www.legends-of-blood.de
+```
 
 certbot certonly --manual   --preferred-challenges=dns   --email webmaster@hh-hausanschluss.de   --server https://acme-v02.api.letsencrypt.org/directory   --agree-tos   --manual-public-ip-logging-ok   -d hh-hausanschluss.de -d *.hh-hausanschluss.de
 
-```
 
 ## Installing MySQL
 ```
