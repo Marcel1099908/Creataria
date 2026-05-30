@@ -17,8 +17,6 @@ LOG_FILE="${SERVER_DIR}/server.log"
 PID_FILE="${SERVER_DIR}/server.pid"
 # ==============================================================================
 
-trap 'logMessage "ERROR" "Script failed at line $LINENO."' ERR
-
 logMessage() {
     local level="$1"
     local message="$2"
@@ -208,7 +206,7 @@ Available commands:
       Monitor server logs
 
   help
-      Show  help message
+      Show help message
 EOF
 }
 
